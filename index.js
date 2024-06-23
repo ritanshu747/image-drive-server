@@ -24,7 +24,7 @@ app.use(fileUpload({
 }));
 app.use(cookieParser());
 app.use(cors({
-    origin: ['http://localhost:5173'], // Adjust based on your frontend URL
+    origin: ['http://localhost:5173','https://image-drive-server-1.onrender.com/'], // Adjust based on your frontend URL
     credentials: true,
 }));
 
