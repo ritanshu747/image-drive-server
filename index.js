@@ -29,7 +29,7 @@ app.use(cors({
 }));
 
 // Routes
-app.use('/api/v1/auth', require('./routes/User')); // Example user routes
+app.use('/api/v1/auth', require('./routes/user')); // Example user routes
 app.use('/api/v1/upload', fileUploadRouter); // Example upload routes
 app.use('/api/v1/search', imageSearchRouter); // Route for image search
 
